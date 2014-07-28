@@ -5,7 +5,7 @@ Template Name: Coming_Soon
 ?>
 	<style type="text/css">
 	    body {
-		    background-color:#red;
+		    background-color:red;
 	    }
     </style>
 
