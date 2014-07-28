@@ -2,7 +2,6 @@
 /*
 Template Name: Coming_Soon
 */
-$page_bg_image_url = get_background_image();
 ?>
 
 
