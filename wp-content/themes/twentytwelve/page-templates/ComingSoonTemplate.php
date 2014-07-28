@@ -1,8 +1,7 @@
 <?php
-/**
-  * Template Name: Coming Soon Template
+/*
+Template Name: Coming_Soon
 */
-
 ?>
 
 
