@@ -4,11 +4,12 @@ Template Name: Coming_Soon
 */
 ?>
 
-
+<style>
+	body.custom-background { background-image: url('<?php get_background_image(); ?>');border:1px solid black;}
+</style>
 
 <html>
 	<body>
-		<?php get_background_image(); ?>
 		Coming soon.
 		
 	</body>
