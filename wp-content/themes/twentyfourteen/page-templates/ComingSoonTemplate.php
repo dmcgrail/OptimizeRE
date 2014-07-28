@@ -12,7 +12,7 @@ $page_bg_image_url = get_background_image();
 <html>
 	<body>
 		Coming soon 1.
-		
+		<img src="<?php background_image(); ?>" />
 	</body>
 	
 
