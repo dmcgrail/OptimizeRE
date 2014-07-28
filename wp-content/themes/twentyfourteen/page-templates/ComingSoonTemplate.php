@@ -1,3 +1,4 @@
+<?php
 /*
 Template Name: Coming_Soon
 */
