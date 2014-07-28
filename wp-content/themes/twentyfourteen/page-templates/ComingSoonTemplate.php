@@ -3,7 +3,11 @@
 Template Name: Coming_Soon
 */
 ?>
-
+	<style type="text/css">
+	    body {
+		    background-color:#red;
+	    }
+    </style>
 
 
 <html>
@@ -22,11 +26,6 @@ Template Name: Coming_Soon
 		
 	</body>
 	
-	<style type="text/css">
-	    body {
-		    background-color:#'<?php background-color(); ?>' ;
-			background-image: url('<?php background-image(); ?>');
-	    }
-    </style>
+
 
 </html>
