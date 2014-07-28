@@ -7,12 +7,7 @@ Template Name: Coming_Soon
 
 
 <html>
-    <style type="text/css">
-	       body {
-		    background-color:'#<?php background-color(); ?>' ;
-			background-image: url('<?php background-image(); ?>');
-	       }
-    </style>
+
 
 	<body>
 		Coming soon 2.
@@ -27,5 +22,11 @@ Template Name: Coming_Soon
 		
 	</body>
 	
+	<style type="text/css">
+	    body {
+		    background-color:#'<?php background-color(); ?>' ;
+			background-image: url('<?php background-image(); ?>');
+	    }
+    </style>
 
 </html>
