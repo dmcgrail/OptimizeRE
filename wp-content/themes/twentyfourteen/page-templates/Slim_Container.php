@@ -41,7 +41,7 @@ the_content();
 				<div class="boxContent">
 					<div class="entry-content">
 						'<?php
-							the_content();
+							get_template_part( 'content', 'page' );
 						?>'
 					</div><!-- .entry-content -->	
 				</div>
