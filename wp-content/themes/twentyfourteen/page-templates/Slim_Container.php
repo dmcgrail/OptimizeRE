@@ -37,6 +37,7 @@ Template Name: Slim Container
 				<div class="boxContent">
 					Hey there....
 					'<?php bloginfo('template_url'); ?>'  /images/image.jpg'
+					<img src='<?php bloginfo('template_url'); ?>/images/clouse_large_paddingtopbottom.png' />
 				</div>
 			</div>
 	</body>
