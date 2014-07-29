@@ -7,6 +7,7 @@ Template Name: Coming_Soon
 	    body {
 		    background-image: url('<?php background_image(); ?>');
 	    }
+	    .box
     </style>
 
 
@@ -14,7 +15,10 @@ Template Name: Coming_Soon
 
 
 	<body>
-		Coming soon 2.
+		<div class="box">
+			
+		</div>
+		
 		
 	</body>
 	
