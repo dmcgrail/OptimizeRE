@@ -39,14 +39,22 @@ the_content();
 	<body>
 			<div class="boxCenter" >
 				<div class="boxContent">
-					<div class="entry-content">
-						<?php
-							get_template_part( 'content', 'page' );
-						?>
-						
-						Break 
-						<?php get_the_content(); ?>
-					</div><!-- .entry-content -->	
+					<div id="primary" class="site-content">
+						<div id="content" role="main">
+				
+							<?php while ( have_posts() ) : the_post(); ?>
+								<?php if ( has_post_thumbnail() ) : ?>
+									<div class="entry-page-image">
+										<?php the_post_thumbnail(); ?>
+									</div><!-- .entry-page-image -->
+								<?php endif; ?>
+				
+								<?php get_template_part( 'content', 'page' ); ?>
+				
+							<?php endwhile; // end of the loop. ?>
+				
+						</div><!-- #content -->
+					</div><!-- #primary -->	
 				</div>
 			</div>
 	</body>
