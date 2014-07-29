@@ -18,6 +18,9 @@ Template Name: Slim Container
 	             height: 100%;
 	             margin: 0pt;
 	        }
+	        body{
+	        	background-image:url('<?php bloginfo('template_url'); ?>/images/clouds_large_paddingtopbottom.png');
+	        }
 			.boxCenter{
 				width:35%;
 				min-width:500px;
@@ -36,9 +39,6 @@ Template Name: Slim Container
 			<div class="boxCenter" >
 				<div class="boxContent">
 					Hey there....
-					'<?php bloginfo('template_url'); ?>'  /images/image.jpg'
-					'<?php bloginfo('template_url'); ?>/images/clouds_large_paddingtopbottom.png' />
-					<img src='<?php bloginfo('template_url'); ?>/images/clouds_large_paddingtopbottom.png' />
 				</div>
 			</div>
 	</body>
