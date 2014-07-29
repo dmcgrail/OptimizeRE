@@ -45,7 +45,7 @@ the_content();
 						?>
 						
 						Break 
-						<?php the_content(); ?>
+						<?php get_the_content(); ?>
 					</div><!-- .entry-content -->	
 				</div>
 			</div>
