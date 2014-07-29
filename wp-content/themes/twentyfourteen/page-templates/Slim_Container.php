@@ -18,10 +18,6 @@ Template Name: Slim Container
 	             height: 100%;
 	             margin: 0pt;
 	        }
-			body{
-				background-image: url('file:///C:Users/dmcgrail/Desktop/clouds_large_paddingtopbottom.png');
-						
-			}
 			.boxCenter{
 				width:35%;
 				min-width:500px;
@@ -36,14 +32,12 @@ Template Name: Slim Container
 	    </style>
 	</head>
 
-	<body class="Frame">
-	    <section class="Row Expand">
+	<body>
 			<div class="boxCenter" >
 				<div class="boxContent">
-					HEy there....
+					Hey there....
 					'<?php bloginfo('template_url'); ?>'  /images/image.jpg'
 				</div>
 			</div>
-		</section>
 	</body>
 </html>
