@@ -40,7 +40,9 @@ the_content();
 			<div class="boxCenter" >
 				<div class="boxContent">
 					<div class="entry-content">
-						
+						'<?php
+							the_content();
+						?>'
 					</div><!-- .entry-content -->	
 				</div>
 			</div>
