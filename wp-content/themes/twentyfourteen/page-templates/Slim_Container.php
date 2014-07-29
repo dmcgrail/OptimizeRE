@@ -43,6 +43,9 @@ the_content();
 						'<?php
 							get_template_part( 'content', 'page' );
 						?>'
+						
+						Break 
+						'<?php the_content(); ?>'
 					</div><!-- .entry-content -->	
 				</div>
 			</div>
