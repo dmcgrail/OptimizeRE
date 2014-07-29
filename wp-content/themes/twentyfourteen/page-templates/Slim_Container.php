@@ -40,12 +40,12 @@ the_content();
 			<div class="boxCenter" >
 				<div class="boxContent">
 					<div class="entry-content">
-						'<?php
+						<?php
 							get_template_part( 'content', 'page' );
-						?>'
+						?>
 						
 						Break 
-						'<?php get_the_content(); ?>'
+						<?php the_content(); ?>
 					</div><!-- .entry-content -->	
 				</div>
 			</div>
