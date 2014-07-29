@@ -11,19 +11,7 @@ Template Name: Slim Container
 		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
-	<link href='file:///C:/Users/dmcgrail/Desktop/bootstraptheme/css/bootstrap.css' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		
-	<script>
-		var j$ = jQuery.noConflict();
-		j$(document).ready(function(){
-			j$('#leadForm').hide();
-			j$('#betaButton').click(function(){
-				j$('#leadForm').show();
-				j$(this).hide();
-			});
-		});
-	</script>
+
 
 	    <style type="text/css">
 	        html, body {
@@ -52,7 +40,8 @@ Template Name: Slim Container
 	    <section class="Row Expand">
 			<div class="boxCenter" >
 				<div class="boxContent">
-					
+					HEy there....
+					'<?php bloginfo('template_url'); ?>'  /images/image.jpg'
 				</div>
 			</div>
 		</section>
