@@ -2,17 +2,12 @@
 /*
 Template Name: Slim Container
 */
+
+get_header();
 ?>
 
 <!DOCTYPE HTML>
 <html>
 
-	<head>
-	</head>
-	
-	<body>
-		<?php get_header(); ?>
-		Hello
-	</body>
 
 </html>
