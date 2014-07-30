@@ -23,6 +23,9 @@ Template Name: Coming_Soon
 				j$('#leadForm').show();
 				j$(this).hide();
 			});
+			j$('#formInput').submit(function(){
+				j$(this)[0].reset();
+			});
 		});
 	</script>
 
@@ -108,7 +111,7 @@ Template Name: Coming_Soon
 						<!--  NOTE: Please add the following <FORM> element to your page.             -->
 						<!--  ----------------------------------------------------------------------  -->
 
-						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="formInput">
 
 						<input type=hidden name="oid" value="00DF00000007jUF">
 						<input type=hidden name="retURL" value="http://www.optimizerecrm.com">
