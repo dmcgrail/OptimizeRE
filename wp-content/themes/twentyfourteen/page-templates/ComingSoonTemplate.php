@@ -11,7 +11,7 @@ Template Name: Coming_Soon
 		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
-	<link href='<?php bloginfo('template_url'); ?>/css/bootstrap.css' type='text/css'>
+	<link href='<?php bloginfo('template_url'); ?>/css/bootstrap.css' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		
 		
