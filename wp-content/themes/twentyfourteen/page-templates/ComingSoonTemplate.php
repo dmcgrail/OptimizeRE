@@ -85,9 +85,7 @@ Template Name: Coming_Soon
 </head>
 <body class="Frame">
     <section class="Row Expand">
-    	<img src='http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png' style="width:100%;"/>
-	
-		<div class="boxCenter" >
+    	<div class="boxCenter" >
 			<div class="boxContent">
 				<div>
 					<p style="margin: 20px auto;text-align:center;" ><span class="phraseLite">Real estate made </span><span class="phraseHeavy" style="margin-left:5px;">simple.</span></p>
@@ -141,7 +139,7 @@ Template Name: Coming_Soon
 		</div>
 	</section>
     <footer class="Row">
-		<img src='http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png' style="width:100%;'/>
+		<img src='<?php bloginfo('template_url'); ?>/images/bottom_noback.png' style="width:100%;"/>
 	</footer>
 </body>
 </html>
