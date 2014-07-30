@@ -89,7 +89,7 @@ Template Name: Beta Success
 			<div class="boxContent">
 				<div>
 					<p style="margin: 20px auto;text-align:center;" ><span class="phraseLite">Real estate made </span><span class="phraseHeavy" style="margin-left:5px;">simple.</span></p>
-					<p class="bodyCopy">Thank you for signing up! Someone will contact you shortly for more information"</p>
+					<p class="bodyCopy">Thank you for signing up! Someone will contact you shortly with more information</p>
 				</div>
 			</div>
 		</div>
