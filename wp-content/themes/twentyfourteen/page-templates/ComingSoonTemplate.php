@@ -96,7 +96,6 @@ Template Name: Beta Group Page
 					</p>
 				</div>
 				<div id="leadForm" style="width:75%;margin:auto;text-align:center;" >
-					<?php get_page(1001) ?>
 					<!--  ----------------------------------------------------------------------  -->
 						<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 						<!--  If necessary, please modify the charset parameter to specify the        -->
@@ -112,7 +111,7 @@ Template Name: Beta Group Page
 						<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="formInput">
 
 						<input type=hidden name="oid" value="00DF00000007jUF">
-						<input type=hidden name="retURL" value="<?php get_page(1001) ?>">
+						<input type=hidden name="retURL" value="http://optimizerewebsite.herokuapp.com/?page_id=1001">
 
 						<!--  ----------------------------------------------------------------------  -->
 						<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
