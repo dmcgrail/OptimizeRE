@@ -12,6 +12,7 @@ Template Name: Slim Container
 	
 	<body>
 		<?php get_header(); ?>
+		Hello
 	</body>
 
 </html>
