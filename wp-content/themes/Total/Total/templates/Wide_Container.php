@@ -1,7 +1,6 @@
 <?php
 /*
 Template Name: Wide Container
-the_content();
 */
 ?>
 

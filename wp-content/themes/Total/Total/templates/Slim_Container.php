@@ -37,7 +37,6 @@ Template Name: Slim Container
 	</head>
 
 	<body>
-		<?php get_header(); ?>
 			<div class="boxCenter" >
 				<div class="boxContent">
 					<div id="primary" class="site-content">
