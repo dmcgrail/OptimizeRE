@@ -1,0 +1,51 @@
+/*icons*/
+.vc-editor .icon-wpb-vcex-blog_carousel { background: url("icons/carousel.png"); }
+.vc-editor .icon-wpb-vcex-spacing { background-image: url("icons/spacing.png"); }
+.vc-editor .icon-wpb-vcex-divider { background-image: url("icons/divider.png"); }
+.vc-editor .icon-wpb-vcex-callout { background-image: url("icons/callout.png"); }
+.vc-editor .icon-wpb-vcex-list_item { background-image: url("icons/list_item.png"); }
+.vc-editor .icon-wpb-vcex-bullets { background-image: url("icons/bullets.png"); }
+.vc-editor .icon-wpb-vcex-button { background-image: url("icons/button.png"); }
+.vc-editor .icon-wpb-vcex-pricing { background-image: url("icons/pricing.png"); }
+.vc-editor .icon-wpb-vcex-milestone { background-image: url("icons/milestone.png"); }
+.vc-editor .icon-wpb-vcex-skillbar { background-image: url("icons/skillbar.png"); }
+.vc-editor .icon-wpb-vcex-icon { background-image: url("icons/icon.png"); }
+.vc-editor .icon-wpb-vcex-icon_box { background-image: url("icons/icon_box.png"); }
+.vc-editor .icon-wpb-vcex-teaser { background-image: url("icons/teaser.png"); }
+.vc-editor .icon-wpb-vcex-image_swap { background-image: url("icons/image_swap.png"); }
+.vc-editor .icon-wpb-vcex-image_flexslider { background-image: url("icons/image_flexslider.png"); }
+.vc-editor .icon-wpb-vcex-image_galleryslider { background-image: url("icons/image_galleryslider.png"); }
+.vc-editor .icon-wpb-vcex-image_carousel { background-image: url("icons/image_carousel.png"); }
+.vc-editor .icon-wpb-vcex-image_grid { background-image: url("icons/image_grid.png"); }
+.vc-editor .icon-wpb-vcex-image_carousel { background-image: url("icons/image_carousel.png"); }
+.vc-editor .icon-wpb-vcex-recent_news { background-image: url("icons/recent_news.png"); }
+.vc-editor .icon-wpb-vcex-blog_grid { background-image: url("icons/blog_grid.png"); }
+.vc-editor .icon-wpb-vcex-blog_carousel { background-image: url("icons/blog_grid.png"); }
+.vc-editor .icon-wpb-vcex-testimonials_grid { background-image: url("icons/testimonials_grid.png"); }
+.vc-editor .icon-wpb-vcex-testimonials_slider { background-image: url("icons/testimonials_slider.png"); }
+.vc-editor .icon-wpb-vcex-portfolio_grid { background-image: url("icons/portfolio_grid.png"); }
+.vc-editor .icon-wpb-vcex-portfolio_carousel { background-image: url("icons/portfolio_carousel.png"); }
+.vc-editor .icon-wpb-vcex-staff_grid,
+.vc-editor .icon-wpb-vcex-staff_carousel,
+.vc-editor .icon-wpb-vcex-staff_social { background-image: url("icons/staff.png"); }
+.vc-editor .icon-wpb-vcex-login_form { background-image: url("icons/login_form.png"); }
+.vc-editor .icon-wpb-vcex-newsletter_form { background-image: url("icons/newsletter_form.png"); }
+.vc-editor .icon-wpb-vcex-woocommerce_carousel { background-image: url("icons/woocommerce_carousel.png"); }
+.vc-editor .icon-wpb-vcex-layerslider { background-image: url("icons/layerslider.png"); }
+.vc-editor .icon-wpb-vcex-post-type-grid,
+.vc-editor .icon-wpb-vcex-post-type-slider { background-image: url("icons/post_type_grid.png"); }
+/*tweak main styles*/
+.vc-editor .navbar,
+.vc-editor .panel-heading, .vc-editor .modal-header,
+.vc-editor .navbar .vc-dropdown .vc-dropdown-list { background: #222; }
+.vc-editor .navbar .line,
+.vc-editor .navbar .vc-dropdown .vc-dropdown-list { border-color: #333; }
+.vc-editor .navbar li a:hover,
+.vc-editor .navbar .vc-dropdown:hover .vc-dropdown-toggle,
+.vc-editor .navbar .vc-dropdown .vc-dropdown-list a:hover { background-color: #333; }
+.vc-editor .panel-heading, .vc-editor .modal-header { margin: -1px -1px 0; }
+.vc-editor .navbar .navbar-brand.vc-ajax-loading { background-image: url("images/loader-white.gif"); }
+/*editor save notice*/
+.vc-editor .panel .vc-panel-message { top: auto;left: auto;right: 10px;max-width: 260px; width:auto; bottom: 11px; padding: 7px 12px; font-size: 12px; }
+.vc-editor .panel .vc-panel-message.type-success { background: #fff; color: #444; border-bottom: 0px; border-left: 4px solid #7ad03a; font-weight: bold; }
+.vc-editor .panel .vc-panel-message.type-success:before{ content:"\f00c"; font-family: 'FontAwesome'; font-style:normal;font-weight:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; margin-right: 7px; }

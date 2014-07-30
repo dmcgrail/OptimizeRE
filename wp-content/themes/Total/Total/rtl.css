@@ -1,0 +1,13 @@
+/*
+ Theme Name: Total
+ Description: Adds support for languages written in a Right To Left (RTL) direction.
+ Author: WPExplorer
+*/
+
+body { direction: rtl; unicode-bidi: embed; }
+
+/*header 1*/
+.header-one-logo { float: right; }
+.navbar-style-one { right: auto; left: -12px; }
+
+/* Full RTL Support Coming Soon! */

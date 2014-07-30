@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------------------------------
+ Theme Name: Total
+ Stylesheet: IE8 Fixes and tweaks
+ Author: WPExplorer
+ Theme URI: URI: http://www.wpexplorer.com
+ Author URI: URI: http://www.wpexplorer.com
+ License URI: URI: http://themeforest.net/licenses
+-----------------------------------------------------------------------------------*/
+.vcex-background.style-parallax {background-attachment: static !important;}
+/*main grid*/
+.wp_row {zoom: 1;position: relative;}
+#wrap .wpex-row { margin-left: 0 !important; margin-right: 0 !important; }
+#wrap .wpex-row .col { margin: 0 0 20px 1.6%; padding: 0; }
+#wrap .wpex-row .span_1_of_2 { width: 49.2%; }
+#wrap .wpex-row .span_1_of_3 { width: 33.3%; }
+#wrap .wpex-row .span_1_of_4 { width: 23.8%; }
+#wrap .wpex-row .span_1_of_5 { width: 18.7%; }
+#wrap .wpex-row .span_1_of_6 { width: 15.3%; }
+/*visual composer grid*/
+body .wpb_row { margin-left: 0 !important; margin-right: 0 !important; width: 100%; *zoom: 1; }
+body .wpb_row:before,
+body .wpb_row:after { display: table; content: ""; }
+body .wpb_row:after { clear: both }
+body .wpb_row [class*="vc_span"] { display: block; width: 100%; min-height: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; float: left; margin-left: 2.5%; }
+body .wpb_row [class*="vc_span"]:first-child { margin-left: 0 }
+body .wpb_row .vc_span12,
+body .wpb_teaser_grid.wpb_carousel .vc_span12 { width: 100% }
+body .wpb_row .vc_span11 { width: 91.4% }
+body .wpb_row .vc_span10 { width: 82.9% }
+body .wpb_row .vc_span9 { width: 74.3% }
+body .wpb_row .vc_span8 { width: 65.8% }
+body .wpb_row .vc_span7 { width: 57.2% }
+body .wpb_row .vc_span6,
+body .wpb_teaser_grid.wpb_carousel .vc_span6 { width: 48.7% }
+body .wpb_row .vc_span5 { width: 40.2% }
+body .wpb_row .vc_span4,
+body .wpb_teaser_grid.wpb_carousel .vc_span4 { width: 31.6% }
+body .wpb_row .vc_span3,
+body .wpb_teaser_grid.wpb_carousel .vc_span3 { width: 23.1% }
+body .wpb_row .vc_span2 { width: 14.5% }
+body .wpb_row .vc_span1 { width: 6% }
+body .wpb_row > .wpb_column > .wpb_wrapper .wpb_content_element:last-child { margin-bottom: 0 }

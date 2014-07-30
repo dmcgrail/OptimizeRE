@@ -1,0 +1,80 @@
+/*
+ * Adds styling for additional visual composer elements in the backend
+ *
+ * Created by WPExplorer.com for the Total WordPress Theme
+ * Copyright 2013
+*/
+/*Visual Composer tweaks*/
+#visual_composer_content .wpb_content_element > .wpb_element_wrapper { height: auto; }
+#visual_composer_content .wpb_element_wrapper div p:last-child { margin: 0; }
+/*Style VC admin buttons to match WP skins*/
+body .composer-switch .logo-icon,body .composer-switch a,body .composer-switch a:visited{background-color:#222!important}body .composer-switch a.wpb_switch-to-composer:hover,body .composer-switch a.wpb_switch-to-front-composer:hover,body .composer-switch a:visited.wpb_switch-to-composer:hover,body .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#333!important}body .composer-switch .vc-spacer{background-color:#444}body.admin-color-midnight .composer-switch .logo-icon,body.admin-color-midnight .composer-switch a,body.admin-color-midnight .composer-switch a:visited{background-color:#363b3f!important}body.admin-color-midnight .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-midnight .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-midnight .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-midnight .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#e14d43!important}body.admin-color-midnight .composer-switch .vc-spacer{background-color:#3e4448}body.admin-color-ocean .composer-switch .logo-icon,body.admin-color-ocean .composer-switch a,body.admin-color-ocean .composer-switch a:visited{background-color:#637c84!important}body.admin-color-ocean .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-ocean .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-ocean .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-ocean .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#9ebaa0!important}body.admin-color-ocean .composer-switch .vc-spacer{background-color:#6a868e}body.admin-color-blue .composer-switch .logo-icon,body.admin-color-blue .composer-switch a,body.admin-color-blue .composer-switch a:visited{background-color:#0074a2!important}body.admin-color-blue .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-blue .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-blue .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-blue .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#008cc4!important}body.admin-color-blue .composer-switch .vc-spacer{background-color:#4796b3}body.admin-color-coffee .composer-switch .logo-icon,body.admin-color-coffee .composer-switch a,body.admin-color-coffee .composer-switch a:visited{background-color:#59524c!important}body.admin-color-coffee .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-coffee .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-coffee .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-coffee .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#c7a589!important}body.admin-color-coffee .composer-switch .vc-spacer{background-color:#6b635c}body.admin-color-ectoplasm .composer-switch .logo-icon,body.admin-color-ectoplasm .composer-switch a,body.admin-color-ectoplasm .composer-switch a:visited{background-color:#523f6d!important}body.admin-color-ectoplasm .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-ectoplasm .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-ectoplasm .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-ectoplasm .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#624b83!important}body.admin-color-ectoplasm .composer-switch .vc-spacer{background-color:#624b83}body.admin-color-light .composer-switch .logo-icon,body.admin-color-light .composer-switch a,body.admin-color-light .composer-switch a:visited{background-color:#777!important}body.admin-color-light .composer-switch a.wpb_switch-to-composer:hover,body.admin-color-light .composer-switch a.wpb_switch-to-front-composer:hover,body.admin-color-light .composer-switch a:visited.wpb_switch-to-composer:hover,body.admin-color-light .composer-switch a:visited.wpb_switch-to-front-composer:hover{background-color:#888!important}body.admin-color-light .composer-switch .vc-spacer{background-color:#888}
+/*CSS for Visual Composer Icons*/
+body .wpb_bootstrap_modals .icon-wpb-vcex-post-type-grid,
+body .wpb_bootstrap_modals .icon-wpb-vcex-post-type-slider,
+body .wpb_vcex_post_type_flexslider .wpb_element_wrapper,
+body .wpb_vcex_post_type_grid .wpb_element_wrapper { background-image: url("icons/post_type_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-spacing,
+body .wpb_vcex_spacing .wpb_element_wrapper { background-image: url("icons/spacing.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-divider,
+body .wpb_vcex_divider .wpb_element_wrapper { background-image: url("icons/divider.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-callout,
+body .wpb_vcex_callout .wpb_element_wrapper { background-image: url("icons/callout.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-list_item,
+body .wpb_vcex_list_item .wpb_element_wrapper { background-image: url("icons/list_item.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-bullets,
+body .wpb_vcex_bullets .wpb_element_wrapper { background-image: url("icons/bullets.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-button,
+body .wpb_vcex_button .wpb_element_wrapper { background-image: url("icons/button.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-pricing,
+body .wpb_vcex_pricing .wpb_element_wrapper { background-image: url("icons/pricing.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-milestone,
+body .wpb_vcex_milestone .wpb_element_wrapper { background-image: url("icons/milestone.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-skillbar,
+body .wpb_vcex_skillbar .wpb_element_wrapper { background-image: url("icons/skillbar.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-icon,
+body .wpb_vcex_icon .wpb_element_wrapper { background-image: url("icons/icon.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-icon_box,
+body .wpb_vcex_icon_box .wpb_element_wrapper { background-image: url("icons/icon_box.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-teaser,
+body .wpb_vcex_teaser .wpb_element_wrapper { background-image: url("icons/teaser.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_swap,
+body .wpb_vcex_image_swap .wpb_element_wrapper { background-image: url("icons/image_swap.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_flexslider,
+body .wpb_vcex_image_flexslider .wpb_element_wrapper { background-image: url("icons/image_flexslider.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_galleryslider,
+body .wpb_vcex_image_galleryslider .wpb_element_wrapper { background-image: url("icons/image_galleryslider.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_carousel,
+body .wpb_vcex_image_carousel .wpb_element_wrapper { background-image: url("icons/image_carousel.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_grid,
+body .wpb_vcex_image_grid .wpb_element_wrapper { background-image: url("icons/image_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-image_carousel,
+body .wpb_vcex_image_carousel .wpb_element_wrapper { background-image: url("icons/image_carousel.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-recent_news,
+body .wpb_vcex_recent_news .wpb_element_wrapper { background-image: url("icons/recent_news.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-blog_grid,
+body .wpb_vcex_blog_grid .wpb_element_wrapper { background-image: url("icons/blog_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-blog_carousel,
+body .wpb_vcex_blog_carousel .wpb_element_wrapper { background-image: url("icons/blog_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-testimonials_grid ,
+body .wpb_vcex_testimonials_grid .wpb_element_wrapper { background-image: url("icons/testimonials_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-testimonials_slider,
+body .wpb_vcex_testimonials_slider .wpb_element_wrapper { background-image: url("icons/testimonials_slider.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-portfolio_grid,
+body .wpb_vcex_portfolio_grid .wpb_element_wrapper { background-image: url("icons/portfolio_grid.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-portfolio_carousel,
+body .wpb_vcex_portfolio_carousel .wpb_element_wrapper { background-image: url("icons/portfolio_carousel.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-staff_grid,
+body .wpb_vcex_staff_grid .wpb_element_wrapper,
+body .wpb_bootstrap_modals .icon-wpb-vcex-staff_carousel,
+body .wpb_vcex_staff_carousel .wpb_element_wrapper,
+body .wpb_bootstrap_modals .icon-wpb-vcex-staff_social,
+body .wpb_staff_social .wpb_element_wrapper { background-image: url("icons/staff.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-login_form,
+body .wpb_vcex_login_form .wpb_element_wrapper { background-image: url("icons/login_form.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-newsletter_form,
+body .wpb_vcex_newsletter_form .wpb_element_wrapper { background-image: url("icons/newsletter_form.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-woocommerce_carousel,
+body .wpb_vcex_woocommerce_carousel .wpb_element_wrapper { background-image: url("icons/woocommerce_carousel.png"); }
+body .wpb_bootstrap_modals .icon-wpb-vcex-layerslider,
+body .wpb_layerslider .wpb_element_wrapper { background-image: url("icons/layerslider.png"); }
