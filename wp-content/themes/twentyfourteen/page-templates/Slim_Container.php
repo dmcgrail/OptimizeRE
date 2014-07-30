@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Slim Container
-the_content();
+
 */
 ?>
 
@@ -37,6 +37,7 @@ the_content();
 	</head>
 
 	<body>
+		<?php get_header(); ?>
 			<div class="boxCenter" >
 				<div class="boxContent">
 					<div id="primary" class="site-content">
