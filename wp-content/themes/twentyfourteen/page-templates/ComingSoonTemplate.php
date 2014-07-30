@@ -23,9 +23,6 @@ Template Name: Coming_Soon
 				j$('#leadForm').show();
 				j$(this).hide();
 			});
-			j$('#formInput').submit(function(){
-				j$(this)[0].reset();
-			});
 		});
 	</script>
 
