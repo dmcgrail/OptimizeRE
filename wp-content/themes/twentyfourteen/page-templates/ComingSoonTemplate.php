@@ -112,6 +112,7 @@ Template Name: Beta Group Page
 
 						<input type=hidden name="oid" value="00DF00000007jUF">
 						<input type=hidden name="retURL" value="http://optimizerewebsite.herokuapp.com/?page_id=1001">
+						<input type=hidden id="00NF000000CNAqr" name="00NF000000CNAqr" value="1" />
 
 						<!--  ----------------------------------------------------------------------  -->
 						<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
