@@ -139,7 +139,8 @@ Template Name: Coming_Soon
 		</div>
 	</section>
     <footer class="Row">
-		<img src="<?php bloginfo('template_url'); ?>/images/bottom_noback.jpg" style="width:100%;'/>
+    	'<?php bloginfo('template_url'); ?>/images/bottom_noback.jpg'
+		<img src='<?php bloginfo('template_url'); ?>/images/bottom_noback.jpg' style="width:100%;'/>
 	</footer>
 </body>
 </html>
