@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Coming_Soon
+Template Name: Beta Success
 */
 ?>
 
