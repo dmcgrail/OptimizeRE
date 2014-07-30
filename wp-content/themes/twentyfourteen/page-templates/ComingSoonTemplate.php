@@ -88,7 +88,7 @@ Template Name: Coming_Soon
 		<div class="boxCenter" >
 			<div class="boxContent">
 				<div>
-					<p style="margin: 20px auto;text-align:center;" ><span class="phraseLite">Real esate made </span><span class="phraseHeavy" style="margin-left:5px;">simple.</span></p>
+					<p style="margin: 20px auto;text-align:center;" ><span class="phraseLite">Real estate made </span><span class="phraseHeavy" style="margin-left:5px;">simple.</span></p>
 					<p class="bodyCopy">Let OptimizeRE CRM help you take your residential real estate business to the next level.</p>
 					<p class="bodyCopy" style="text-align:center;font-style:italic;margin-top:20px;">Coming September 2014!</p>
 					<p style="text-align:center;">
@@ -139,7 +139,7 @@ Template Name: Coming_Soon
 		</div>
 	</section>
     <footer class="Row">
-		<img src='<?php bloginfo('template_url'); ?>/images/bottom_noback.png" style="width:100%;'/>
+		<img src='<?php bloginfo('template_url'); ?>/images/bottom_noback.png' style="width:100%;'/>
 	</footer>
 </body>
 </html>
