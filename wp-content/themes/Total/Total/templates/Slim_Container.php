@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Slim Container
-
+the_content();
 */
 ?>
 
