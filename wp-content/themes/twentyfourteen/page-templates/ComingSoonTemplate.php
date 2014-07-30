@@ -140,7 +140,7 @@ Template Name: Coming_Soon
 	</section>
     <footer class="Row">
     	<?php bloginfo('template_url'); ?>/images/bottom_noback.jpg
-		<img src="http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png" style="width:100%;'/>
+		<img src='http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png' style="width:100%;'/>
 	</footer>
 </body>
 </html>
