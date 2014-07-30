@@ -85,7 +85,7 @@ Template Name: Coming_Soon
 </head>
 <body class="Frame">
     <section class="Row Expand">
-    	<img src='http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png' style="width:100%;'/>
+    	<img src='http://optimizerewebsite.herokuapp.com/wp-content/themes/twentyfourteen/images/bottom_noback.png' style="width:100%;"/>
 	
 		<div class="boxCenter" >
 			<div class="boxContent">
