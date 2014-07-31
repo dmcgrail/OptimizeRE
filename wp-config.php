@@ -25,7 +25,7 @@ else {
 }
 
 
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] );
+define('WP_SITEURL', 'http://www.optimizere.com' );
 
 /**#@+
  * Authentication Unique Keys and Salts.
