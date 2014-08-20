@@ -23,7 +23,7 @@ get_header(); ?>
 						<?php echo apply_filters( 'the_content', wpex_option( 'error_page_text' ) ); ?>
 					<?php } else { ?>
 						<h1><?php _e( 'You Broke The Internet!', 'wpex' ) ?></h1>
-						<p><?php _e( 'We are just kidding...but sorry the page you were looking for can not be found.', 'wpex' ); ?></p>
+						<p><?php _e( 'Just kidding...but sorry the page you were looking for can not be found.', 'wpex' ); ?></p>
 					<?php } ?>
 				</div><!-- .entry -->
 			</div><!-- #content -->
