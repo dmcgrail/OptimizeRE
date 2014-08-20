@@ -1,0 +1,96 @@
+/*
+ Theme Name: Total
+ Description: Gaps Skin
+ Author: WPExplorer
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/* - Main
+/*-----------------------------------------------------------------------------------*/
+body { background: #e6e6e6 }
+#wrap { width: 1030px; margin: 0 auto 60px auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.boxed-main-layout #wrap { margin-top: 0; }
+#wrap .container { width: auto !important; padding-left: 30px; padding-right: 30px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.full-width-main-layout .center-row-inner { margin: 0; }
+@media only screen and (min-width: 959px) {
+	.is-sticky #site-header { width: 1030px }
+}
+.is-sticky #site-header { border: none }
+#site-header { background: none; border: none; }
+#site-header-inner { border: 1px solid #ddd; border-top: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#site-navigation { padding: 0 }
+#searchform-dropdown { right: -1px }
+#top-bar-wrap { background: #3b86b0; color: #cae0ed; border: none; margin: 0; }
+#top-bar { border-left: 1px solid #ddd; border-right: 1px solid #ddd; }
+#top-bar-content a,
+#top-bar-content a:hover { color: #cae0ed; }
+#top-bar-social a { color: #fff; opacity: 0.8; }
+#top-bar-social a:hover { color: #fff; opacity: 1; }
+#top-bar-content strong { color: #fff; }
+#site-header,
+#main { background: #fff }
+#main { border: 1px solid #ddd }
+.header-two #site-navigation,
+.header-three #site-navigation,
+#main,
+#footer-callout-wrap { margin-top: 20px }
+.is-sticky .header-two #site-header-inner,
+.is-sticky .header-three #site-header-inner { margin-top: 0 }
+.is-sticky #site-navigation { margin-top: 0; }
+.is-sticky .fixed-nav { background: none; }
+.is-sticky .fixed-nav { width: 1030px !important; border-bottom: none; }
+#site-header.fixed-header, .is-sticky #site-header { box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none; }
+body.shrink-fixed-header #site-header-sticky-wrapper.is-sticky .header-one #site-header-inner { border: none; }
+body.shrink-fixed-header #site-header-sticky-wrapper.is-sticky #site-header { border: 1px solid #ddd; border-top: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.page-header { border: none; background: none; padding: 0; }
+.page-header-inner { padding-bottom: 40px; border-bottom: double #ddd; margin: 0 30px; padding: 30px 0 20px !important; }
+.background-image-page-header .page-header-inner { border-bottom: none }
+#content-wrap.full-screen { padding-left: 0 !important; padding-right: 0 !important; }
+#footer { margin-top: 30px }
+#footer-callout-wrap { border: 1px solid #ddd }
+#site-scroll-top { bottom: 60px }
+#searchform-header-replace { padding: 0 30px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+#searchform-header-replace-close { right: 30px; }
+/*move absolute items*/
+.navbar-style-one,
+#footer-bottom-menu { right: 30px }
+/*social share minimal */
+.social-share-buttons.style-minimal li a,
+.social-share-buttons.position-vertical li:first-child { border-color: #ccc }
+.social-share-buttons.position-vertical { left: -85px }
+/*fixed nav*/
+.is-sticky .fixed-nav { border-bottom: none; background: #fff; }
+.is-sticky .navbar-style-two, .is-sticky .navbar-style-three { margin: 0; }
+/*-----------------------------------------------------------------------------------*/
+/* - Navigation
+/*-----------------------------------------------------------------------------------*/
+#wrap .navbar-style-two .container,
+#wrap .navbar-style-three .container { border: 1px solid #ddd; padding-left: 0; padding-right: 0; }
+.navbar-style-two,
+.navbar-style-three { background: #fff; margin-top: 20px; }
+.navbar-style-two .dropdown-menu { border: none; }
+.navbar-style-two .dropdown-menu > li > a { padding: 0 30px; }
+.navbar-style-two .dropdown-menu > li { border-color: #eee }
+.navbar-style-two .dropdown-menu > li a:hover { background: #f7f7f7 }
+.navbar-style-one .dropdown-menu a:hover,
+.navbar-style-two .dropdown-menu a:hover,
+.navbar-style-three .dropdown-menu a:hover,
+.navbar-style-one .dropdown-menu ul a:hover,
+.navbar-style-two .dropdown-menu ul a:hover,
+.navbar-style-three .dropdown-menu ul a:hover,
+.navbar-style-one .dropdown-menu > .current-menu-item > a,
+.navbar-style-two .dropdown-menu > .current-menu-item > a,
+.navbar-style-three .dropdown-menu > .current-menu-item > a { color: #3b86b0; }
+/*-----------------------------------------------------------------------------------*/
+/* - Boxed fixes
+/*-----------------------------------------------------------------------------------*/
+/*main*/
+.boxed-main-layout { background-color: #e6e6e6 }
+.boxed-main-layout #wrap { box-shadow: none; background: none; }
+.boxed-main-layout .site-breadcrumbs { right: 0 }
+/*-----------------------------------------------------------------------------------*/
+/* - WooCommerce
+/*-----------------------------------------------------------------------------------*/
+.header-two #current-shop-items-dropdown,
+.header-three #current-shop-items-dropdown { right: 0; border-top: none; }
+ul.products li.product .price { background: #7EAD42; color: #fff; }

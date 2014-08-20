@@ -1,0 +1,72 @@
+<wpml-config>
+	<!-- Custom Fields -->
+	<custom-fields>
+		<!-- Pages & Posts -->
+		<custom-field action="copy">wpex_disable_breadcrumbs</custom-field>
+		<custom-field action="copy">wpex_disable_footer</custom-field>
+		<custom-field action="copy">wpex_disable_footer_callout</custom-field>
+		<custom-field action="copy">wpex_disable_header</custom-field>
+		<custom-field action="copy">wpex_disable_header_margin</custom-field>
+		<custom-field action="copy">wpex_disable_title</custom-field>
+		<custom-field action="copy">wpex_main_layout</custom-field>
+		<custom-field action="copy">wpex_page_background_color</custom-field>
+		<custom-field action="copy">wpex_page_background_image</custom-field>
+		<custom-field action="copy">wpex_page_background_image_style</custom-field>
+		<custom-field action="copy">wpex_post_layout</custom-field>
+		<custom-field action="copy">wpex_post_media_position</custom-field>
+		<custom-field action="copy">wpex_post_slider_bottom_margin</custom-field>
+		<custom-field action="copy">wpex_post_slider_shortcode</custom-field>
+		<custom-field action="copy">wpex_post_title_background</custom-field>
+		<custom-field action="copy">wpex_post_title_background_color</custom-field>
+		<custom-field action="copy">wpex_post_title_height</custom-field>
+		<custom-field action="copy">wpex_post_title_style</custom-field>
+		<custom-field action="copy">wpex_post_url</custom-field>
+		<custom-field action="copy">wpex_custom_menu</custom-field>
+		<!-- Staff -->
+		<custom-field action="translate">wpex_staff_position</custom-field>
+		<custom-field action="copy">wpex_staff_dribbble</custom-field>
+		<custom-field action="copy">wpex_staff_email</custom-field>
+		<custom-field action="copy">wpex_staff_facebook</custom-field>
+		<custom-field action="copy">wpex_staff_twitter</custom-field>
+		<custom-field action="copy">wpex_staff_skype</custom-field>
+		<custom-field action="copy">wpex_staff_linkedin</custom-field>
+		<custom-field action="copy">wpex_staff_google-plus</custom-field>
+		<!-- Testimonials -->
+		<custom-field action="translate">wpex_testimonial_url</custom-field>
+		<custom-field action="translate">wpex_testimonial_company</custom-field>
+		<custom-field action="translate">wpex_testimonial_author</custom-field>
+	</custom-fields>
+	<!-- Custom Post Types -->
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">staff</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+	</custom-types>
+	<!-- Custom Taxonomies -->
+	<taxonomies>
+		<taxonomy translate="1">portfolio_tag</taxonomy>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">staff_tag</taxonomy>
+		<taxonomy translate="1">staff_category</taxonomy>
+		<taxonomy translate="1">testimonials_category</taxonomy>
+	</taxonomies>
+	<!-- Admin Texts -->
+	<admin-texts>
+		<key name="wpex_options">
+			<key name="custom_logo" />
+			<key name="retina_logo" />
+			<key name="retina_logo_height" />
+			<key name="retina_logo_width" />
+			<key name="top_bar_content" />
+			<key name="error_page_title" />
+			<key name="error_page_text" />
+			<key name="callout_text" />
+			<key name="callout_link" />
+			<key name="callout_link_txt" />
+			<key name="footer_copyright_text" />
+			<key name="blog_entry_readmore_text" />
+			<key name="social_share_heading" />
+		</key>
+		<key name="woocommerce_price_display_suffix"/>
+	</admin-texts>
+</wpml-config>
